@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'DK Crayon Crumble';
+  src: url('http://www.fontsaddict.com/fontface/dk-crayon-crumble.ttf');
+}
+@font-face {
+    font-family: "SilentHill";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("./fonts/SLNTHLN.woff") format("woff"), url("./fonts/SLNTHLN.ttf") format("truetype");
+}
+@font-face {
+    font-family: "SilentHillCursive";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("./fonts/SLNTHLC.woff") format("woff"), url("./fonts/SLNTHLC.ttf") format("truetype");
+}
+@font-face {
+    font-family: "SilentHillBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("./fonts/SLNTHLE.woff") format("woff"), url("./fonts/SLNTHLE.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'CHSocial';
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/CHSocial-regular-webfont.eot");
+  src: url("./fonts/CHSocial-regular-webfont.eot") format('eot'),
+       url("./fonts/CHSocial-regular-webfont.woff") format('woff'), 
+       url("./fonts/CHSocial-regular-webfont.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Forced Square";
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"), url("./fonts/FORCED-SQUARE.ttf") format("truetype");
+}

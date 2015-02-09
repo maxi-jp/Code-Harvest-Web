@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Hardcore engineers harvesting code for gaming purposes." />
+    <title>Code Harvest</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/icon_32.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/estilosResponsivos.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="./css/animaciones.css"/>-->
+    <link rel="stylesheet" type="text/css" href="./js/jquery.lightbox.css"/>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.lightbox.js"></script>
+    <script type="text/javascript" src="./js/quienesSomos.js"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <!-- CARRUSEL -->
+    <link rel='stylesheet' id='style-css'  href='./Carrusel/diapo/diapo.css' type='text/css' media='all'> 
+    <!--[if !IE]><!--><script type='text/javascript' src='./Carrusel/diapo/scripts/jquery.mobile-1.0rc2.customized.min.js'></script><!--<![endif]-->
+    <script type='text/javascript' src='./Carrusel/diapo/scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='./Carrusel/diapo/scripts/jquery.hoverIntent.minified.js'></script> 
+    <script type='text/javascript' src='./Carrusel/diapo/scripts/diapo.js'></script> 
+    <script>
+        $(function(){
+            $('.pix_diapo').diapo();
+        });
+    </script>
+    <style>
+        section {
+            display: block;
+            overflow: hidden;
+            position: relative;
+        }
+        .button {
+            background: #014464;
+            background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C)); 
+            border: 1px solid #368DBE;
+            border-top: 1px solid #c3d6df;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            -moz-box-shadow: 0 1px 3px black;
+            -webkit-box-shadow: 0 1px 3px black;
+            box-shadow: 0 1px 3px black;
+            color: white;
+            display: block;
+            font-size: 12px;
+            font-weight: bold;
+            height: 30px;
+            line-height: 30px;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 1px 1px 1px black;
+            text-transform: uppercase;
+            width: auto;
+        }
+        .button2 {
+            background: #d9ae00;
+            background: -moz-linear-gradient(top, #b28b06, #9c7705 50%, #9c7705 51%, #5c4100);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b28b06), color-stop(.5, #9c7705), color-stop(.5, #9c7705), to(#5c4100)); 
+            border: 1px solid #c7a60c;
+            border-top: 1px solid #e5d51f;
+        }
+        .button3 {
+            background: #ffd838;
+            background: -moz-linear-gradient(top, #edbf21, #c89b0f 50%, #9c7705 51%, #906706);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #edbf21), color-stop(.5, #c89b0f), color-stop(.5, #c89b0f), to(#906706)); 
+            border: 1px solid #c7a60c;
+            border-top: 1px solid #e5d51f;
+        }
+        .price_table {
+            float: right;
+            font-size: 12px;
+            margin: 10px auto 0;
+            padding: 20px 0;
+            position: relative;
+            width: 570px;
+        }
+        .price_table .price_column.highlighted {
+            background: #ffd838;
+            margin: -5px!important;
+            padding: 10px;
+            z-index: 2;
+        }
+        .price_table .price_column {
+            display: block;
+            margin: 5px;
+            float: left;
+            position: absolute;
+            width: 180px;
+            z-index: 1;
+        }
+        .price_table .price_column > div {
+            background: #eeeeee;
+        }
+        .price_table .price_column > div > div {
+            padding: 10px 15px;
+            border-bottom: 1px solid #cccccc;
+            border-top: 1px solid #f6f6f6;
+        }
+        .price_table .price_column > div > p {
+            padding: 10px 15px;
+            border-bottom: 1px solid #cccccc;
+            border-top: 1px solid #f6f6f6;
+        }
+        .price_table .price_column > div > ul {
+            padding: 10px 15px;
+            border-bottom: 1px solid #cccccc;
+            border-top: 1px solid #f6f6f6;
+        }
+        .price_table .price_title {
+            background-color: #333333;
+            border-top: 0!important;
+            color: #ffffff;
+            font-size: 14px;
+        }
+        .price_table .highlighted .price_title {
+            font-size: 16px;
+        }
+        .price_table .price_price {
+            font-size: 36px;
+            line-height: 40px;
+        }
+        .price_table .highlighted  .price_price {
+            font-size: 40px;
+            line-height: 44px;
+        }
+        .price_table .price_explanation {
+            font-size: 10px;
+            line-height: 13px;
+            text-transform: uppercase;
+        }
+        .price_table .cusButton {
+            background-color: #333333;
+            display: block;
+            text-align: center;
+        }
+        .price_table li {
+            padding: 5px 0;
+        }
+        .price_table div.pix_check {
+            background: url(./Carrusel/diapo/images/demo/list-check-green.png) no-repeat 15px center;
+            padding-left: 38px!important;
+        }
+        .price_table div.pix_error {
+            background: url(./Carrusel/diapo/images/demo/list-error.png) no-repeat 15px center;
+            padding-left: 38px!important;
+        }
+    </style>
+         
+    <!-- CARRUSEL -->
+</head>
+<body onload="Init();">
+
+  <div id="Cabecera">
+    <a href="./index.html">
+      <img id="ImagenCabecera" src="./img/logosenal_sinfondo_icono.ico">
+    </a>
+    <ul id="ListaCabecera">        
+      <li class="celdaCabecera" style="left:20%;">
+        <a href="./index.html">
+          <span class="tituloCelda">Principal</span>
+          <span class="barritaCelda"></span>
+        </a>
+      </li>
+      
+      <li class="celdaCabecera" style="left:37%;">
+        <a href="./QuienesSomos.html">
+          <span class="tituloCelda">Quienes somos</span>
+          <span class="barritaCelda"></span>
+        </a>        
+      </li>
+      
+      <li id="CeldaJuegos" class="celdaCabecera juegos" style="left:63%;">
+        <a>
+          <span class="tituloCelda">Juegos</span>
+          <span class="barritaCelda"></span>
+        </a>      
+      </li>
+      
+      <li class="celdaCabecera" style="left:81%;">
+        <a href="./contacto.php">
+          <span class="tituloCelda">Contacto</span>
+          <span class="barritaCelda"></span>
+        </a>        
+      </li>
+    </ul>
+    
+    <div id="DivJuegos" class="juegos">
+      <a href="http://mutantmeatcity.com" target="_blank">
+        <img id="JuegoMMC" src="./img/Logo_MutantMeat.png">
+      </a>
+      <a href="http://www.projectchandra.co.nf" target="_blank">
+        <img id="JuegoPC" src="./img/projectchandra_logo.png">
+      </a>
+    </div>    
+  </div>
+  
+  <div id="Contenedor">
+  
+    <canvas id="miCanvas" width="0" height="511"></canvas>
+    
+    <div class="ContainerBlock">
+      <div id="UltimasNoticias">
+        <div id="TituloUN">
+            <h1>Quiénes somos</h1>
+        </div>
+        <p>Code Harvest somos un grupo de jóvenes desarrolladores apasionados por los videojuegos formado a lo largo del curso 2013-2014 por estudiantes de Ingeniería en Informática de la Universidad Complutense de Madrid y del Grado en Diseño y Desarrollo de Videojuegos de ESNE (escuela universitaria de diseño, innovación y tecnología).</p>
+        <p>Varios de los componentes del equipo, en concreto los programadores, ya habían trabajado juntos durante el curso anterior desarrollando <span style="font-style:italic; font-weight:bold">Project_CHANDRA</span>, un proyecto para la asignatura de Ingeniería del Software consistente en un <span style="font-style:italic;">twin stick shooter</span> con fases de scroll lateral, este proyecto es <span style="font-style:italic;">open source</span> y se puede ver en el siguiente <a href="https://github.com/maxi-jp/project_chandra">enlace</a>. Tras la excelente experiencia, se decidió trabajar en un proyecto mucho más ambicioso que sirviera como proyecto de fin de carrera durante el curso siguiente.</p>
+        <p>Así, el grupo al completo surgió con la idea de realizar un proyecto que sirviera como combinación de los proyectos de fin de carrera de Ingeniería en Informática de la Universidad Complutense de Madrid y como proyecto Fin de Grado del Grado en Diseño y Desarrollo de Videojuegos de ESNE. Este proyecto en principio fue conocido como <span style="font-style:italic; font-weight:bold">Project_NewDetroit</span> y más tarde pasó a ser nombrado como <span style="font-style:italic; font-weight:bold">Mutant Meat City</span>. Al finalizar los cursos universitarios, el proyecto fue calificado con una nota de 10 y Matrícula de Honor en Ingeniería en Informática de la UCM y con una nota de 10 y Matrícula de Honor en el Grado en Diseño y Desarrollo de Videojuegos de ESNE, además, el proyecto fue galardonado con el Primer Premio Sopra al mejor proyecto de fin de carrera de la Facultad de Informática de la Universidad Complutense de Madrid, siendo el primer proyecto en el que se ha desarrollado un Videojuego que consigue una nota de Matrícula de Honor en la Facultad de Informática y en conseguir el Primer Premio Sopra.</p>
+        <p>Tras finalizar el curso universitario, decidimos presentar nuestro proyecto a la primera edición de los <span style="font-style:italic;">PlayStation Awards</span> siendo uno de los 25 proyectos seleccionados entre más de 100 participantes. Gracias a esto, pudimos presentar <span style="font-style:italic; font-weight:bold">Mutant Meat City</span> en la <span style="font-style:italic;">MGW14</span> (Madrid Games Week 2014, feria de videojuegos celebrada en <span style="font-style:italic;">Ifema</span>). Más adelante, nuestro videojuego fue elegido junto a otros 11 para la gran final, resultando vencedor del proyecto con el Mejor Arte además de conseguir otras dos nominaciones: para el proyecto más innovador y para el mejor proyecto absoluto.</p>
+        <p>Actualmente seguimos trabajando duramente en sacar adelante <span style="font-style:italic; font-weight:bold">Mutant Meat City</span>.
+      </div>
+
+      <section> 
+        <div class="carrusel_container"> 
+          <div class="pix_diapo">
+            <div data-thumb="./img/Carrusel/NominacionMMCWEB.jpg" data-time="10000">
+              <img src="./img/Carrusel/NominacionMMCWEB.jpg">
+              
+              <div class="elemHover fromBottom" data-easing="easeOutElastic" style="left:0px; top:110px;">
+                <img src="./img/Carrusel/DiegoCartel.jpg" style="width:38%;">
+              </div>
+              <div class="elemHover fromBottom" data-easing="easeOutElastic" style="left:72%; top:110px;">
+                  <img src="./img/Carrusel/FermonasCartelWEB.jpg" style="width:270px">
+              </div>
+              <div class="caption elemHover fromRight" style="width:auto;left:259px;bottom:65px; padding-bottom:5px; color:#ff0;">
+                Acudimos a la gala de la final de los PlayStation Awards 2014...
+              </div>
+            </div>
+
+            <div data-thumb="./img/Carrusel/MejorArte2WEB.jpg" data-time="7000">
+              <img src="./img/Carrusel/MejorArte2WEB.jpg">
+              <div class="caption elemHover fromLeft">
+                ¡¡¡Y fuimos ganadores del premio al Mejor Arte de PlayStation Awards 2014!!!
+              </div>
+            </div>
+                      
+            <div data-thumb="./img/Carrusel/5ganadores.jpg" data-time="7000">
+              <img src="./img/Carrusel/5ganadores.jpg">
+              <div class="caption elemHover fromLeft" data-easing="easeInElastic">
+                ¡¡¡Además fuimos nominados a Juego Más Innovador del Año y a Mejor Juego del Año !!!!
+              </div>
+            </div>
+                      
+            <div data-thumb="./img/Carrusel/GamerOnCodeHarvest.jpg" data-time="7000">
+              <img src="./img/Carrusel/GamerOnCodeHarvest.jpg">
+              <div class="caption elemHover fromRight" style="text-align:center;bottom:65px; padding-bottom:5px; color:#ff0; text-transform:uppercase">
+                  Muchas gracias a todos
+              </div>
+              <div class="caption elemHover fromTop" style="text-align:center;padding-top:5px;color:#ff0;" data-easing="easeInCirc">
+                :D
+              </div>
+            </div>
+                      
+            <div data-thumb="./img/Carrusel/JaritinMGWweb.jpg" data-time="7000">
+              <img src="./img/Carrusel/JaritinMGWweb.jpg"style=" width:auto;">
+              <div class="caption elemHover fromBottom" style="height:auto;text-align:center;bottom:55px; padding-bottom:5px; color:#ff0;">
+                Pero antes de pasar a la gran final...
+              </div>
+              <div class="caption elemHover fromTop" style="bottom:5px;text-align:center;padding-top:5px;color:#ff0;">
+                ...nos dieron un stand en la Madrid Games Week 2014
+              </div>
+            </div>
+                      
+            <div data-thumb="./img/Carrusel/CHLogo.jpg" data-time="20000">
+              <img src="./img/Carrusel/CHLogo.jpg" >
+              <div class="caption elemHover fromRight" style="font-size: 20px;text-align:center; top:0px; padding-bottom:65px; color:#ff0;">
+                Y la gente pudo probar nuestro juego Mutant Meat City
+              </div>
+              <div class="elemHover fromBottom" data-easing="easeOutElastic" style="left:0px; top:157px; width:235px;">
+                <img src="./img/Carrusel/MGW1WEB.jpg">
+              </div>
+              
+              <div class="elemHover fromBottom" data-easing="easeOutElastic" style="left:25%; top:157px;width:235px;">
+                <img src="./img/Carrusel/MGW2WEB.jpg">
+              </div>
+              
+              <div class="elemHover fromBottom" data-easing="easeOutElastic" style="left:50%; top:157px;width:235px;">
+                <img src="./img/Carrusel/MGW3WEB.jpg">
+              </div>
+              
+              <div class="elemHover fromBottom" data-easing="easeOutElastic" style="left:75%; top:157px;width:235px;">
+                <img src="./img/Carrusel/MGW4WEB.jpg">
+              </div>                            
+            </div>
+                      
+            <div data-thumb="./img/Carrusel/FeriaEsne.jpg" data-time="7000">
+              <img src="./img/Carrusel/FeriaEsne.jpg">
+
+              <div class="caption elemHover fromBottom" style="height:auto;text-align:center;bottom:55px; padding-bottom:5px; color:#ff0;">
+                Estuvimos presentes en la feria de empleo y emprendimiento de ESNE
+              </div>
+              <div class="caption elemHover fromTop" style="bottom:5px;text-align:center;padding-top:5px;color:#ff0;">
+                La gente pudo jugar a la Demo y recibimos un hermoso FeedBack
+              </div>
+            </div>
+
+            <div data-thumb="./img/Carrusel/ElZeroUno.jpg" data-time="7000">
+              <img src="./img/Carrusel/ElZeroUno.jpg">
+
+              <div class="caption elemHover fromBottom" style="height:auto;text-align:center;bottom:55px; padding-bottom:5px; color:#ff0;">
+                Fuimos invitados al ZeroUno - Los Amigos Del Videojuego
+              </div>
+              <div class="caption elemHover fromTop" style="bottom:5px;text-align:center;padding-top:5px;color:#ff0;">
+                Y pudimos exponer brevemente nuestro videojuego Mutan Meat City
+              </div>
+            </div>    
+                      
+          <!--            <div data-thumb="./Carrusel/diapo/images/thumbs/megamind_07.jpg">
+                          <img src="./Carrusel/diapo/images/slides/megamind_07.jpg"> 
+                          <div class="caption elemHover fromRight" style="bottom:65px; padding-bottom:5px; color:#ff0; text-transform:uppercase">
+                              Here you can see two captions.
+                          </div>
+                          <div class="caption elemHover fromLeft" style="padding-top:5px;">
+                              The first are loaded immediately before than the second one
+                          </div>
+                      </div>
+          -->            
+          <!--            <div data-thumb="./Carrusel/diapo/images/thumbs/wall-e.jpg" data-time="7000">
+                          <img src="./Carrusel/diapo/images/slides/wall-e.jpg">
+                          <div class="elemHover caption fromLeft" style="bottom:70px; width:auto; -webkit-border-top-right-radius: 6px; -webkit-border-bottom-right-radius: 6px; -moz-border-radius-topright: 6px; -moz-border-radius-bottomright: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px;">
+                              You can also get the same effect as the caption with:
+                          </div>
+                          <div class="elemHover button fromTop" data-easing="easeOutExpo" style="left:388px; bottom:78px;">
+                              A button
+                          </div>
+                          <div class="elemHover button button2 fromBottom" data-easing="easeOutExpo" style="left:512px; bottom:78px;">
+                              Or two buttons
+                          </div>
+                          <div class="elemHover fadeIn" style="left:600px; bottom:auto; top:0; padding-top:50px; color:#ff0; font-size:13px; line-height:20px; width:auto; -webkit-border-top-right-radius: 6px; -webkit-border-bottom-right-radius: 6px; -moz-border-radius-topright: 6px; -moz-border-radius-bottomright: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; background:url(./Carrusel/diapo/images/demo/arrow_caption.png) no-repeat 230px 30px">
+                              Or any other html element...<br>
+                              and you can decide the transition time of any slide
+                          </div>
+                      </div>
+          -->            <!--
+                      <div data-thumb="./Carrusel/diapo/images/thumbs/up-official-trailer-fake.jpg">
+                          <iframe width="940" height="470" src="http://www.youtube.com/embed/qas5lWp7_R0?wmode=transparent&autoplay=1" data-fake="./Carrusel/diapo/images/slides/up-official-trailer-fake.jpg" frameborder="0" allowfullscreen></iframe>
+                          <div class="elemHover caption fromLeft elemToHide" style="bottom: 350px; width:auto; -webkit-border-top-right-radius: 6px; -webkit-border-bottom-right-radius: 6px; -moz-border-radius-topright: 6px; -moz-border-radius-bottomright: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; left:0">
+                              You can also display videos, but it requires a "fake image"... read the documentation please
+                          </div>
+                      </div>-->
+                      
+          <!--            <div data-thumb="./Carrusel/diapo/images/thumbs/big_buck_bunny.jpg" data-time="7000">
+          <!--            <div style="position:absolute; top:0; left:0; width:900px; height:430px; padding:20px; background:#fff; color:#222;">
+          <!--                <div style="float:left; width:300px;">
+          <!--                    <p><br><br>You can display any html element directly in the slider, but pay attention, with many elements the transition effect could be slowed.<br>
+          <!--                    In this case you can see a Vimeo video and a price table</p>
+          <!--                    <iframe src="http://player.vimeo.com/video/1084537?title=0&amp;byline=0&amp;portrait=0&amp;color=f0bc00&amp;autoplay=1" data-fake="./Carrusel/diapo/images/slides/big_buck_bunny.jpg" width="300" height="169" frameborder="0"></iframe>
+          <!--                </div>
+          <!--                <div class="price_table"><div>
+          <!--                    <div class="price_column highlighted" style="top:0; left:190px; height:387px; background:#fff; -moz-box-shadow: 0 1px 4px #666;    -webkit-box-shadow: 0 1px 4px #666; box-shadow: 0 1px 4px #666;"><div>
+          <!--                    </div></div><!-- .price_column --> 
+          <!--                        <div class="price_column" style="top:0; left:0; height:383px; background:#ddd; -moz-box-shadow: 0 1px 4px #666;    -webkit-box-shadow: 0 1px 4px #666; box-shadow: 0 1px 4px #666;"><div> 
+          <!--                    </div></div><!-- .price_column --> 
+          <!--                        <div class="price_column" style="top:0; left:380px; height:383px; background:#ddd; -moz-box-shadow: 0 1px 4px #666;    -webkit-box-shadow: 0 1px 4px #666; box-shadow: 0 1px 4px #666;"><div>
+          <!--                    </div></div><!-- .price_column -->
+          <!--                        <div class="price_column highlighted fadeIn" style="top:0; left:190px;"><div>
+          <!--                        <div class="price_title">Standard</div><!-- .price_title --> 
+          <!--                            <div class="price_price">$9/mo.</div><!-- .price_price --> 
+          <!--                            <div class="price_explanation">And as the day advanced and the engine drivers</div><!-- .price_explanation --> 
+          <!--                            <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                            <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                        <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                        <div class="pix_error">Error sign</div><!-- .pix_error --> 
+          <!--                        <div>
+          <!--                            <a class="button button3" href="#">Purchase</a>
+          <!--                        </div>
+          <!--                    </div></div><!-- .price_column --> 
+          <!--                    <div class="price_column fromTop" style="top:0; left:0"><div> 
+          <!--                        <div class="price_title">Basic</div><!-- .price_title --> 
+          <!--                        <div class="price_price">Free</div><!-- .price_price --> 
+          <!--                        <div class="price_explanation">And as the day advanced and the engine drivers</div><!-- .price_explanation --> 
+          <!--                        <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                        <div class="pix_error">Error sign</div><!-- .pix_error --> 
+          <!--                        <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                        <div class="pix_error">Error sign</div><!-- .pix_error --> 
+          <!--                        <div>
+          <!--                            <a class="button" href="#">Purchase</a>
+          <!--                        </div> 
+          <!--                    </div></div><!-- .price_column --> 
+          <!--                    <div class="price_column fromBottom" style="top:0; left:380px;"><div>
+          <!--                        <div class="price_title">Professional</div><!-- .price_title --> 
+          <!--                        <div class="price_price">$19/mo.</div><!-- .price_price --> 
+          <!--                        <div class="price_explanation">And as the day advanced and the engine drivers</div><!-- .price_explanation --> 
+          <!--                        <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                        <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                        <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                        <div class="pix_check">Check sign</div><!-- .pix_check --> 
+          <!--                        <div>
+          <!--                            <a class="button" href="#">Purchase</a>
+          <!--                        </div> 
+          <!--                    </div></div><!-- .price_column --> 
+          <!--                </div></div><!-- price_table -->
+          <!--                </div>
+                      </div>
+          -->
+                      
+          </div><!-- #pix_diapo -->
+        </div>
+      </section>
+    </div>
+      
+  </div>
+
+  <div id="Pie">
+    <div class="wrapper">
+      <a href="https://plus.google.com/u/0/101224919854733628513" target="_blank"  class="icon googleplus" href="#"><span class="CHSocial-googleplus"></span></a>
+      <a href="https://www.facebook.com/codeharvest" target="_blank"  class="icon facebook" href="#"><span class="CHSocial-facebook"></span></a>
+      <a href="https://twitter.com/Code_Harvest" target="_blank" class="icon twitter" href="#"><span class="CHSocial-twitter"></span></a>
+      <!--<a href="https://twitter.com/Code_Harvest" target="_blank"  class="icon linkedin" href="#"><span class="CHSocial-linkedin"></span></a>-->
+      <a href="https://www.youtube.com/channel/UCKvQHEDC4r9guyoTN1cYaUA" target="_blank"  class="icon youtube" href="#"><span class="CHSocial-youtube"></span></a>
+      <a class="icon email" href="./Contacto.php"><span class="CHSocial-email"></span></a> <!-- TODO -->
+    </div>
+    <div class="Copyright">
+      <p>2015 © <span style="color: darkgoldenrod">Code Harvest</span>, All Rights Reserved</p>
+    </div>
+  </div>
+  
+</body>
+</html>

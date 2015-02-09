@@ -1,0 +1,43 @@
+@-webkit-keyframes imagenVoladora {
+    0% {
+        /*left: 10px;*/
+		width: 100px;
+    }
+ 
+    25% {
+        /*left: 150px;*/
+		width: 150px;
+    }
+ 
+    50% {
+        /*left: 160px;*/
+		width: 200px;
+    }
+ 
+    75% {
+        /*left: 300px;*/
+		width: 150px;
+    }
+ 
+    100% {
+        /*left: 310px;*/
+		width: 100px;
+	}
+}
+
+#ImagenQuienesSomos > img {
+	-webkit-animation-name: imagenVoladora;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 0s;	
+	-webkit-animation-direction: reverse;
+	-webkit-animation-timing-function: linear;
+  
+	-moz-animation-name: imagenVoladora;
+	-moz-animation-iteration-count: infinite; 
+	-moz-animation-duration: 5s;
+	-moz-animation-delay: 0s;
+	-moz-animation-direction: reverse;
+	-moz-animation-timing-function: linear; 
+	
+}

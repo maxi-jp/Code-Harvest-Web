@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ultimasNoticias>
+
+  <noticia>
+    <fecha>09/02/2015</fecha>
+    <imagen>./img/noticias/15,02,09_nuevaweb.jpg</imagen>
+    <texto>
+      <titulo>¡Tenemos nueva página web!</titulo>
+      <subtitulo>Tras mucho trabajo por fin tenemos lista la nueva página web de Code Harvest</subtitulo>
+      <cuerpo>
+        <p>
+          Tras mucho trabajo por fin tenemos lista la nueva página web de <strong>Code Harvest</strong>.
+        </p>
+        <p>
+          En ella podrás encontrar información sobre nosotros, sobre proyectos en los que hemos estado trabajando y también un formulario para poder contactar con nosotros, además de una sección de noticias y referencias donde iremos publicando información sobre nuestros proyectos y nuestra actividad. ¡Muchas gracias por visitarnos!.
+        </p>
+      </cuerpo>
+    </texto>
+  </noticia>
+  
+  <noticia>
+    <fecha>25/12/2014</fecha>
+    <imagen>./img/355x403/navidades_485x550.jpg</imagen>
+    <texto>
+      <titulo>¡Feliz Navidad!</titulo>		
+      <subtitulo>Todo el equipo de Code Harvest os desea Feliz Navidad y que paséis unas Felices Fiestas</subtitulo>
+      <cuerpo>
+        <p>
+          El año 2014 ha sido un gran año para todo el equipo de Code Harvest: hemos acabado nuestras respectivas carreras universitarias y hemos podido hacer el videojuego <strong>Mutant Meat City</strong>, presentándolo como proyecto final de carrera tanto en Ingeniería en Informática de la Universidad Complutense de Madrid como en el Grado de Diseño y Desarrollo de Videojuegos de la Escuela Universitaria de Diseño, Innovación y Tecnología ESNE; donde en ambas fue calificado con Matrícula de Honor.
+        </p>
+        <p>
+          Además hemos podido presentar este juego en diferentes ferias como han sido: la Feria de Emprendimiento de ESNE en junio, el encuentro de los Amigos del Videojuego de El Zerouno donde el jueves 21 de enero realizaremos una presentación del videojuego y en la Madrid Games Week 2014 en octubre. También participó tanto el el GameLab 2014 como en los PlayStation Awards 2014 obteniendo en este último el premio de Juego con Mejor Arte y quedando entre los 4 primeros en los premios de Juego Más Innovador y Mejor Juego del Año.
+        </p>
+        <p>
+          Con todo esto queremos dar las gracias por el año tan exitoso a todos los que han hecho que esto sea posible y os deseamos unas Felices Fiestas y un Feliz año Nuevo.
+        </p>
+      </cuerpo>
+    </texto>
+  </noticia>
+  
+  <noticia>
+    <fecha>16/12/2014</fecha>
+    <imagen>./img/355x403/psaward_mejorarte.jpg</imagen>	
+    <texto>
+      <titulo>PlayStation Awards 2014</titulo>		
+      <subtitulo>¡Somos los ganadores al Mejor Arte!</subtitulo>
+      <cuerpo>
+        <p>
+          ¡Yippee-ki-yay, mutantes! Nos hemos llevado el premio al mejor arte y dos nominaciones más: al Proyecto Más Innovador y al Mejor Juego del Año (hemos estado nominados en 3 de los 5 apartados :o). Una gran recompensa por el trabajo del equipo y un nuevo hito que añadir a la lista. Pero tranquilos que no nos vamos a relajar aquí, todavía queda trabajo por delante y con este premio tenemos más fuerzas para ver cumplido nuestro sueño.
+        </p>
+      </cuerpo>
+    </texto>
+  </noticia>
+  
+  <noticia>
+    <fecha>23/10/2014</fecha>
+    <imagen>./img/noticias/14,10,23_psafinal.jpg</imagen>	
+    <texto>
+      <titulo>PlayStation Awards 2014</titulo>		
+      <subtitulo>¡Nos hemos clasificado para la gran final!</subtitulo>
+      <cuerpo>
+        <p>
+          Pues si, pues si! Mutant Meat City es uno de los proyectos finalistas de los PlayStation Awards. Nuestro proyecto esta entre los 12 finalistas que quedan de los 25 videojuegos inicialmente seleccionados y de los cuales sólo 5 serán premiados con los premios PlayStation Awards. Haced vuestras apuestas, pues nosotros nos la jugamos por Mutant Meat City. 
+        </p>
+      </cuerpo>
+    </texto>
+  </noticia>
+  
+  <noticia>
+    <fecha>23/09/2014</fecha>
+    <imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+    <texto>
+      <titulo>Nos vamos a la Madrid Games Week</titulo>		
+      <subtitulo>¡Entre los 25 semifinalistas! Tendremos un stand en la feria para poder probar Mutant Meat City</subtitulo>
+      <cuerpo>
+        <p>
+          Comienza el primer concurso de Sony en España: los PlayAwards; y Mutant Meat City cuenta con su plaza para concursar entre los 25 semifinalistas escogidos de entre más de 100 videojuegos independientes españoles. Nos volveremos a encontrar en la feria de Madrid Games Week. ¡No puedes faltar! Esta vez tendremos regalos para los que se pasen por nuestro estand.
+        </p>
+      </cuerpo>
+    </texto>
+  </noticia>
+  
+  <noticia>
+    <fecha>20/07/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Feria de ESNE</titulo>		
+		<subtitulo>Estaremos en la Primeria feria de ESNE, donde la gente podrá probar nuestro juego Mutant Meat City</subtitulo>
+		<cuerpo>
+		<p>
+			¡Estamos de enhorabuena! Tras un duro año de curro en el que hemos trabajado el equipo de 9 personas, compuesto por estudiantes de la ESNE y de la Universidad Complutense de Madrid, para desarrollar Mutant Meat City, tenemos la satisfacción de contar con un espacio en la Primeria Feria de Emprendedores de ESNE donde podrás probar nuestro juego. Contamos con 4 ordenadores para probar el juego en multijugador, ¿te lo vas a perder?
+		</p>
+		</cuerpo>
+	</texto>
+  </noticia>
+  
+  
+  
+  
+  <noticia>
+    <fecha>23/10/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Noticia ejemplo 1</titulo>		
+		<subtitulo>Este es el ejemplo de la noticia 1</subtitulo>
+		<cuerpo></cuerpo>
+	</texto>
+  </noticia>
+  
+  <noticia>
+    <fecha>23/10/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Noticia ejemplo 2</titulo>		
+		<subtitulo>Este es el ejemplo de la notiia 2</subtitulo>
+		<cuerpo></cuerpo>
+	</texto>
+  </noticia>
+  
+  <noticia>
+    <fecha>23/10/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Noticia ejemplo 3</titulo>		
+		<subtitulo>Este es el ejemplo de la noticia 3</subtitulo>
+		<cuerpo></cuerpo>
+	</texto>
+  </noticia>
+ 
+   <noticia>
+    <fecha>23/10/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Noticia ejemplo 4</titulo>		
+		<subtitulo>Este es el ejemplo de la noticia 4</subtitulo>
+		<cuerpo></cuerpo>
+	</texto>
+  </noticia>
+
+  <noticia>
+    <fecha>23/10/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Noticia ejemplo 5</titulo>		
+		<subtitulo>Este es el ejemplo de la noticia 5</subtitulo>
+		<cuerpo></cuerpo>
+	</texto>
+  </noticia>
+
+  <noticia>
+    <fecha>23/10/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Noticia ejemplo 6</titulo>		
+		<subtitulo>Este es el ejemplo de la noticia 6</subtitulo>
+		<cuerpo></cuerpo>
+	</texto>
+  </noticia>
+ 
+   <noticia>
+    <fecha>23/10/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Noticia ejemplo 7</titulo>		
+		<subtitulo>Este es el ejemplo de la noticia 7</subtitulo>
+		<cuerpo></cuerpo>
+	</texto>
+  </noticia>
+
+  <noticia>
+    <fecha>23/10/2014</fecha>
+	<imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+	<texto>
+		<titulo>Noticia ejemplo 8</titulo>		
+		<subtitulo>Este es el ejemplo de la noticia 8</subtitulo>
+		<cuerpo></cuerpo>
+	</texto>
+  </noticia>
+
+ </ultimasNoticias>

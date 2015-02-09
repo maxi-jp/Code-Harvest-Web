@@ -1,0 +1,206 @@
+
+@media screen and (max-width: 1024px){
+	/* CABECERA */
+	#Contenedor {
+		top: 70px;
+	}
+	#Cabecera {
+		height: 70px;
+	}
+	#Cabecera > a {
+		margin-left: 4%;
+	}
+	#ImagenCabecera {
+		width: 70px;
+	}
+	.tituloCelda {
+		font-size: 26px;
+		top: 32px;
+	}
+	#DivJuegos {
+		height: 125px;
+	}
+	#JuegoMMC {
+		height: 106px;
+		margin-left: 33%;
+	}
+    #JuegoPC {
+		height: 106px;
+		margin-left: 61%;
+	}
+	#DivJuegos.activo {
+		top: 70px;
+		height: 105px;
+	}
+	/* /CABECERA */
+	
+	/* NOTICIAS */
+	#TituloUN > h1 {
+		font-size: 35px;
+	}
+	.titulo {
+		//font-size: 11px;
+	}
+	.subtitulo {
+		//font-size: 8px;
+	}
+	/* /NOTICIAS */
+}
+
+@media screen and (max-width: 800px){
+	/* CABECERA */
+	#Contenedor {
+		top: 60px;
+	}
+	#Cabecera {
+		height: 60px;
+	}
+	#Cabecera > a {
+		margin-left: 3%;
+	}
+	#ImagenCabecera {
+		width: 60px;
+	}
+	.tituloCelda {
+		font-size: 24px;
+		top: 25px;
+	}
+	#DivJuegos {
+		height: 115px;
+	}
+	#JuegoMMC {
+		height: 96px;
+		margin-left: 33%;
+	}
+    #JuegoPC {
+		height: 96px;
+		margin-left: 61%;
+	}
+	#DivJuegos.activo {
+		top: 60px;
+		height: 95px;
+	}
+	/* /CABECERA */
+	
+	/* NOTICIAS */
+	.titulo {
+		//font-size: 14px;
+	}
+	.subtitulo {
+		//font-size: 9px;
+	}
+	#UltimasNoticias > ul {
+		position: relative;
+	}
+	#UltimasNoticias > ul > li:not(.activa) {
+		opacity: 0;
+		
+		-webkit-transition: opacity 0.4s  cubic-bezier(0.25,0.1,0.25,1) 0s; /* For Safari 3.1 to 6.0 */
+		-moz-transition:    opacity 0.4s  cubic-bezier(0.25,0.1,0.25,1) 0s; /* For Mozzilla  */
+		-ms-transition:     opacity 0.4s  cubic-bezier(0.25,0.1,0.25,1) 0s; /* IE10 is actually unprefixed */
+		-o-transition:      opacity 0.4s  cubic-bezier(0.25,0.1,0.25,1) 0s; /* For Opera */
+		transition:         opacity 0.4s  cubic-bezier(0.25,0.1,0.25,1) 0s;
+	}
+	#UltimasNoticias > ul > li {
+		display: inline;
+		left: 23%;
+		position: absolute;
+		width: 50%;
+		opacity: 1;
+	}
+	#UltimasNoticias > ul > li.activa {
+		opacity: 1;
+		-webkit-transition: opacity 1.8s  cubic-bezier(0.25,0.1,0.25,1) 0.4s; /* For Safari 3.1 to 6.0 */
+		-moz-transition:    opacity 1.8s  cubic-bezier(0.25,0.1,0.25,1) 0.4s; /* For Mozzilla  */
+		-ms-transition:     opacity 1.8s  cubic-bezier(0.25,0.1,0.25,1) 0.4s; /* IE10 is actually unprefixed */
+		-o-transition:      opacity 1.8s  cubic-bezier(0.25,0.1,0.25,1) 0.4s; /* For Opera */
+		transition:         opacity 1.8s  cubic-bezier(0.25,0.1,0.25,1) 0.4s;
+	}
+	#MasNoticia, #MenosNoticia {
+		display: block;
+    position: relative;
+    z-index: 1;
+	}
+	#MasNoticia {
+    float: right;
+    margin-right: 8%;
+	}
+	#MenosNoticia {
+    float: left;
+    margin-left: 10%;
+	}
+
+	/* /NOTICIAS */
+}
+
+@media screen and (max-width: 600px){
+	/* CABECERA */
+	#Contenedor {
+		top: 50px;
+	}
+	#Cabecera {
+		height: 50px;
+	}
+	#Cabecera > a {
+		margin-left: 2%;
+	}
+	#ImagenCabecera {
+		width: 50px;
+	}
+	.tituloCelda {
+		font-size: 20px;
+		top: 20px;
+	}
+	#DivJuegos {
+		height: 105px;
+	}
+	#JuegoMMC {
+		height: 75px;
+		margin-left: 33%;
+	}
+	#JuegoPC {
+		height: 76px;
+		margin-left: 61%;
+	}
+	#DivJuegos.activo {
+		top: 50px;
+		height: 75px;
+	}
+	/* /CABECERA */
+	/* NOTICIAS */
+	.titulo {
+		//font-size: 12px;
+	}
+	.subtitulo {
+		//font-size: 8px;
+	}
+	/* /NOTICIAS */
+}
+
+@media screen and (max-width: 480px){
+	/* CABECERA */
+	#Contenedor {
+		top: 40px;
+	}
+	#Cabecera {
+		height: 40px;
+	}
+	#ImagenCabecera {
+		width: 40px;
+	}
+	.tituloCelda {
+		font-size: 15px;
+		top: 12px;
+	}
+	#DivJuegos {
+		height: 95px;
+	}
+	#JuegoMMC {
+		height: 57px;
+	}
+	#DivJuegos.activo {
+		top: 40px;
+		height: 60px;
+	}
+	/* /CABECERA */
+}
