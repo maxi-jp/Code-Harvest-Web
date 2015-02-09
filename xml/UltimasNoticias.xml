@@ -6,7 +6,7 @@
     <imagen>./img/noticias/15,02,09_nuevaweb.jpg</imagen>
     <texto>
       <titulo>¡Tenemos nueva página web!</titulo>
-      <subtitulo>Tras mucho trabajo por fin tenemos lista la nueva página web de Code Harvest</subtitulo>
+      <subtitulo>Tras mucho trabajo por fin tenemos lista la nueva página web de Code Harvest.</subtitulo>
       <cuerpo>
         <p>
           Tras mucho trabajo por fin tenemos lista la nueva página web de <strong>Code Harvest</strong>.
@@ -20,10 +20,10 @@
   
   <noticia>
     <fecha>25/12/2014</fecha>
-    <imagen>./img/355x403/navidades_485x550.jpg</imagen>
+    <imagen>./img/noticias/14,12,25_navidad.jpg</imagen>
     <texto>
       <titulo>¡Feliz Navidad!</titulo>		
-      <subtitulo>Todo el equipo de Code Harvest os desea Feliz Navidad y que paséis unas Felices Fiestas</subtitulo>
+      <subtitulo>Todo el equipo de Code Harvest os desea Feliz Navidad y que paséis unas Felices Fiestas.</subtitulo>
       <cuerpo>
         <p>
           El año 2014 ha sido un gran año para todo el equipo de Code Harvest: hemos acabado nuestras respectivas carreras universitarias y hemos podido hacer el videojuego <strong>Mutant Meat City</strong>, presentándolo como proyecto final de carrera tanto en Ingeniería en Informática de la Universidad Complutense de Madrid como en el Grado de Diseño y Desarrollo de Videojuegos de la Escuela Universitaria de Diseño, Innovación y Tecnología ESNE; donde en ambas fue calificado con Matrícula de Honor.
@@ -40,10 +40,10 @@
   
   <noticia>
     <fecha>16/12/2014</fecha>
-    <imagen>./img/355x403/psaward_mejorarte.jpg</imagen>	
+    <imagen>./img/noticias/14,12,16_psapremio.jpg</imagen>	
     <texto>
       <titulo>PlayStation Awards 2014</titulo>		
-      <subtitulo>¡Somos los ganadores al Mejor Arte!</subtitulo>
+      <subtitulo>¡Somos los ganadores al Mejor Arte! (y encima hemos conseguido otras dos nominaciones).</subtitulo>
       <cuerpo>
         <p>
           ¡Yippee-ki-yay, mutantes! Nos hemos llevado el premio al mejor arte y dos nominaciones más: al Proyecto Más Innovador y al Mejor Juego del Año (hemos estado nominados en 3 de los 5 apartados :o). Una gran recompensa por el trabajo del equipo y un nuevo hito que añadir a la lista. Pero tranquilos que no nos vamos a relajar aquí, todavía queda trabajo por delante y con este premio tenemos más fuerzas para ver cumplido nuestro sueño.
@@ -56,7 +56,7 @@
     <fecha>23/10/2014</fecha>
     <imagen>./img/noticias/14,10,23_psafinal.jpg</imagen>	
     <texto>
-      <titulo>PlayStation Awards 2014</titulo>		
+      <titulo>PlayStation Awards 2014 - ¡A la final!</titulo>		
       <subtitulo>¡Nos hemos clasificado para la gran final!</subtitulo>
       <cuerpo>
         <p>
@@ -68,13 +68,16 @@
   
   <noticia>
     <fecha>23/09/2014</fecha>
-    <imagen>./img/355x403/PSAwards_355x403.png</imagen>	
+    <imagen>./img/noticias/14,09,23_psawards.jpg</imagen>	
     <texto>
-      <titulo>Nos vamos a la Madrid Games Week</titulo>		
-      <subtitulo>¡Entre los 25 semifinalistas! Tendremos un stand en la feria para poder probar Mutant Meat City</subtitulo>
+      <titulo>Seleccionados a los PSAwards y nos vamos a la MGW 2014</titulo>		
+      <subtitulo>¡Mutant Meat City está entre los 25 seleccionados! Tendremos un stand en la Madrid Games Week para poder probar Mutant Meat City.</subtitulo>
       <cuerpo>
         <p>
-          Comienza el primer concurso de Sony en España: los PlayAwards; y Mutant Meat City cuenta con su plaza para concursar entre los 25 semifinalistas escogidos de entre más de 100 videojuegos independientes españoles. Nos volveremos a encontrar en la feria de Madrid Games Week. ¡No puedes faltar! Esta vez tendremos regalos para los que se pasen por nuestro estand.
+          Comienza el primer concurso de PlayStation Awards organizado por Sony España y nuestro juego <strong>Mutant Meat City</strong> está entre los 25 seleccionados entre más de 100 videojuegos independientes presentados al concurso.
+        </p>
+        <p>
+          Gracias a esto, el juego contará con un stand en la importante feria <strong>Madrid Games Week</strong> durante los días 17-19 de octubre. Además el juego también estará presente en el stand de la Escuela Universitaria de Diseño, Innovación y Tecnología <strong>ESNE</strong>, por lo que Mutant Meat City tendrá representación doble en la feria. ¡No puedes faltar! Esta vez tendremos regalos para los que se pasen por alguno de nuestros stands.
         </p>
       </cuerpo>
     </texto>

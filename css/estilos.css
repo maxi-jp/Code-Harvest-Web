@@ -310,8 +310,8 @@ p > a:visited:hover {
     
     .fecha_noticia {
       position: absolute;
-      bottom: 5px;
-      right: 2px;
+      bottom: 3px;
+      right: 3px;
       color: orange;
       font-size: 0.7em;
       text-shadow: 1px 1px 1px black;
@@ -708,3 +708,20 @@ p > a:visited:hover {
       top: 3px;
     }
 /* /PIE */
+
+#logo_psa {
+  position: absolute;
+  background-image: url('../img/logo_psaward.png');
+  background-size: 106px;
+  background-repeat: no-repeat;
+  width: 106px;
+  height: 136px;
+  z-index: 100;
+  left: 6px;
+  -webkit-animation: spin 8s linear infinite;
+  -moz-animation:    spin 8s linear infinite;
+  animation:         spin 8s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

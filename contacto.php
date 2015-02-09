@@ -35,7 +35,7 @@
       </li>
       
       <li class="celdaCabecera" style="left:37%;">
-        <a href="./QuienesSomos.html">
+        <a href="./quienes_somos.html">
           <span class="tituloCelda">Quienes somos</span>
           <span class="barritaCelda"></span>
         </a>        
