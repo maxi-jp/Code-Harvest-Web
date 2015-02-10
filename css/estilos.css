@@ -273,6 +273,7 @@ p > a:visited:hover {
       background-image: url(../img/icons/icon_more.png);
       background-repeat: no-repeat;
       background-position: 98% 50%;
+	  padding-right: 45px;
     }
     #Referencias_Lista > li {
       background-image: url(../img/icons/icon_link.png);

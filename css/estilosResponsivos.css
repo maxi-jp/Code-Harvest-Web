@@ -118,8 +118,8 @@
 	}
 	#MasNoticia, #MenosNoticia {
 		display: block;
-    position: relative;
-    z-index: 1;
+		position: relative;
+		z-index: 1;
 	}
 	#MasNoticia {
     float: right;
@@ -129,7 +129,9 @@
     float: left;
     margin-left: 10%;
 	}
-
+	#NoticiasSecundarias > li {
+		position: static !important;
+	}
 	/* /NOTICIAS */
 }
 
