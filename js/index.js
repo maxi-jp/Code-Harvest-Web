@@ -137,7 +137,6 @@ function RellenarNoticia (i, fecha, imagen, titulo, subtitulo, cuerpo) {
 	var $divTexto = $(strTexto);
 	
 	// Hay que ver si es una noticia a mostrar o una oculta
-	
 	if (i == 0)
 		var $liNoticia = $("<li class='activa' onclick='DesplegarNoticia(0);'></li>");
 	else
@@ -181,6 +180,7 @@ function DesplegarNoticia (noticiaId)
 	$(".NoticiaDesplegada_Cuerpo"                   ).append(cuerpoN);
     
 	$("#NoticiaDesplegadaBlock").css("display", "block");
+	window.location.href="#flagNoticias";
 }
 
 function CerrarNoticia () {
