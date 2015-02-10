@@ -161,7 +161,7 @@
       <a href="https://twitter.com/Code_Harvest" target="_blank" class="icon twitter" href="#"><span class="CHSocial-twitter"></span></a>
       <!--<a href="https://twitter.com/Code_Harvest" target="_blank"  class="icon linkedin" href="#"><span class="CHSocial-linkedin"></span></a>-->
       <a href="https://www.youtube.com/channel/UCKvQHEDC4r9guyoTN1cYaUA" target="_blank"  class="icon youtube" href="#"><span class="CHSocial-youtube"></span></a>
-      <a class="icon email" href="./Contacto.php"><span class="CHSocial-email"></span></a> <!-- TODO -->
+      <a class="icon email" href="./contacto.php"><span class="CHSocial-email"></span></a> <!-- TODO -->
     </div>
     <div class="Copyright">
       <p>2015 © <span style="color: darkgoldenrod">Code Harvest</span>, All Rights Reserved</p>
