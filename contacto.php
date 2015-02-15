@@ -101,8 +101,8 @@
 			$contacto .= "Mensaje: " . $mensaje . " \r\n\n";
 			$contacto .= "Enviado el " . date('d/m/Y', time()); 
 
-			$para = 'juventudperdia@gmail.com'; 
-			$asunto = 'mueblesestebanmiranda.com formulario de contacto'; 
+			$para = 'codeharvest.games@gmail.com'; 
+			$asunto = 'Formulario de contacto Página Web Code Harvest'; 
 
 			mail($para, $asunto, utf8_decode($contacto), $header); 
 			?>
