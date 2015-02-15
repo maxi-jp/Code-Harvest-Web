@@ -1,6 +1,25 @@
 $( document ).ready(function() {	
+	// Creamos las imágenes
+	arrayNombres = new Array();
+	arrayNombres[arrayNombres.length] = "Maxi";
+	arrayNombres[arrayNombres.length] = "Diego";
+	arrayNombres[arrayNombres.length] = "Jaco";
+	arrayNombres[arrayNombres.length] = "Dani";
+	arrayNombres[arrayNombres.length] = "Javi";
+	arrayNombres[arrayNombres.length] = "Guille";
+	arrayNombres[arrayNombres.length] = "Fermonas";
+	arrayNombres[arrayNombres.length] = "Fermar";
+	arrayNombres[arrayNombres.length] = "Vortre";
+
 	// Array de imagenes
 	arrayImagenes = new Array();
+	
+	var aleatorio = Math.trunc(Math.random() * (9 - 1) + 1);
+	var num = aleatorio;
+	for (aleatorio; aleatorio < 9 + num; aleatorio++){
+		CreaImagen(arrayNombres[aleatorio % 9]);
+	}
+	/*
 	CreaImagen("Maxi");
 	CreaImagen("Diego");
 	CreaImagen("Jaco");
@@ -10,7 +29,7 @@ $( document ).ready(function() {
 	CreaImagen("Fermonas");
 	CreaImagen("Fermar");
 	CreaImagen("Vortre");	
-	
+	*/
 	anchoImagen = arrayImagenes[0].width;
 	altoImagen = arrayImagenes[0].height;
 	anchoMax = window.innerWidth - anchoImagen;
