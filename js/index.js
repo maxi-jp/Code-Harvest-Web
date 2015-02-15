@@ -308,6 +308,7 @@ function establecerVideo () {
 	else{
 		$("#VideoLogo video").attr("src", "./videos/CH_Intro_640x360.mp4");
 	}
+	$("#VideoLogo > video")[0].play();
 }
 
 function SetNewsHeight () {
