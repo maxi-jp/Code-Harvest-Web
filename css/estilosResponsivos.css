@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1024px){
+@media(max-width: 1024px){
 	/* CABECERA */
 	#Contenedor {
 		top: 70px;
@@ -47,7 +47,7 @@
 	/* /NOTICIAS */
 }
 
-@media screen and (max-width: 800px){
+@media(max-width: 800px){
 	/* CABECERA */
 	#Contenedor {
 		top: 60px;
@@ -132,10 +132,13 @@
 	#NoticiasSecundarias > li {
 		position: static !important;
 	}
+	.NoticiaDesplegada {
+		width: 90%;
+	}
 	/* /NOTICIAS */
 }
 
-@media screen and (max-width: 600px){
+@media(max-width: 600px){
 	/* CABECERA */
 	#Contenedor {
 		top: 50px;
@@ -179,7 +182,7 @@
 	/* /NOTICIAS */
 }
 
-@media screen and (max-width: 480px){
+@media(max-width: 480px){
 	/* CABECERA */
 	#Contenedor {
 		top: 40px;
