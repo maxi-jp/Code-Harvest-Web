@@ -22,6 +22,18 @@
 
   <div id="logo_psa"></div>
   
+  <div id="NoticiaDesplegadaBlock" visibility="hidden">
+    <div class="NoticiaDesplegada">
+      <div class="NoticiaDesplegada_Cabecera">
+        <div class="NoticiaDesplegada_Cross" onclick="CerrarNoticia();"></div>
+        <!--<img src="./img/icons/cross_A.png""/>-->
+        <h1>Título de la Noticia</h1>
+        <div class="fecha_noticia">14/01/2015</div>
+      </div>
+      <div class="NoticiaDesplegada_Cuerpo"><p>Cuerpo de la noticia.</p></div>
+    </div>
+  </div>
+  
   <div id="Cabecera">
     <a href="./index.html">
       <img id="ImagenCabecera" src="./img/logosenal_sinfondo_icono.ico">
@@ -73,23 +85,8 @@
     </div>
     
     <div class="ContainerBlock">
-      <div id="NoticiaDesplegadaBlock" visibility="hidden">
-        <div class="NoticiaDesplegada">
-          <div class="NoticiaDesplegada_Cabecera">
-            <div class="NoticiaDesplegada_Cross" onclick="CerrarNoticia();"></div>
-            <!--<img src="./img/icons/cross_A.png""/>-->
-            <h1>Título de la Noticia</h1>
-            <div class="fecha_noticia">14/01/2015</div>
-          </div>
-          <div class="NoticiaDesplegada_Cuerpo">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum at quam sed iaculis. Fusce aliquet eros sed sodales gravida. Nunc quis imperdiet lacus. Nullam dignissim cursus neque, ac aliquet urna porttitor eget. Fusce pharetra libero et lacinia tempor. Nullam vel scelerisque ipsum, ac vulputate enim.</p>
-            <p>Cras quis sem eget tellus gravida tristique sed ut risus. Aliquam non ligula non magna tempor vehicula quis quis lorem. Aenean ut ante vehicula, blandit tortor ac, varius purus. In a vestibulum magna, et volutpat mi. Proin consectetur sem sed risus pulvinar, sit amet fermentum dolor lobortis. Fusce quis imperdiet turpis. Sed pellentesque nibh nunc. Etiam vehicula est non semper elementum. Maecenas sit amet nunc odio.</p>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec hendrerit odio ex. In gravida eros vitae facilisis laoreet. Mauris orci ante, convallis bibendum dui ut, maximus bibendum ipsum. Curabitur consequat nunc quis mauris ultrices, at pretium nunc condimentum.</p>
-          </div>
-        </div>
-      </div>
       <div id="UltimasNoticias">
-		<a name="flagNoticias" style="visibility:hidden;">flagNoticia</a>
+        <a name="flagNoticias" style="visibility:hidden;"></a>
         <div id="TituloUN">
           <h1>Últimas Noticias</h1>
         </div>

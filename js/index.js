@@ -154,6 +154,13 @@ function RellenarNoticia (i, fecha, imagen, titulo, subtitulo, cuerpo) {
             $liNoticia.addClass("noticias_sec_impar");
 	}
     $divFecha.appendTo($divImagen);
+    
+    if (i >= 3) {
+        var strFecha2 = "<div class='fecha_lista'>" + fecha + "</div>";
+        var $divFecha2 = $(strFecha2);
+        $divFecha2.appendTo($liNoticia);
+    }
+    
 	$divImagen.appendTo($liNoticia);
 	$divTexto.appendTo($liNoticia);
     if (i < 3)
