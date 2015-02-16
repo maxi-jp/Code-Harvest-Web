@@ -180,11 +180,11 @@ function DesplegarNoticia (noticiaId)
 	var cuerpoN = $noticiaSeleccionada.find(".cuerpo").children();
 	
     //$liNoticia.appendTo("#NoticiaDesplegada");
-	$(".NoticiaDesplegada_Cabecera"                 ).css("background-image", imagenN);
-	$(".NoticiaDesplegada_Cabecera > h1"            ).text(tituloN);
-	$(".NoticiaDesplegada_Cabecera > fecha_noticia" ).text(fechaN);
-	$(".NoticiaDesplegada_Cuerpo p"                 ).remove();
-	$(".NoticiaDesplegada_Cuerpo"                   ).append(cuerpoN);
+	$(".NoticiaDesplegada_Cabecera"                  ).css("background-image", imagenN);
+	$(".NoticiaDesplegada_Cabecera > h1"             ).text(tituloN);
+	$(".NoticiaDesplegada_Cabecera > .fecha_noticia" ).text(fechaN);
+	$(".NoticiaDesplegada_Cuerpo p"                  ).remove();
+	$(".NoticiaDesplegada_Cuerpo"                    ).append(cuerpoN);
     
 	$("#NoticiaDesplegadaBlock").css("display", "block");
 	window.location.href="#flagNoticias";
